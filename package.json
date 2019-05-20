@@ -1,0 +1,25 @@
+{
+  "name": "node-mail",
+  "version": "1.0.0",
+  "description": "My NodeJS mail config",
+  "main": "mailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsore/node-mail.git"
+  },
+  "author": "Justin Sorensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsore/node-mail/issues"
+  },
+  "homepage": "https://github.com/jsore/node-mail#readme",
+  "dependencies": {
+    "@sendgrid/client": "^6.4.0",
+    "@sendgrid/inbound-mail-parser": "^6.4.0",
+    "@sendgrid/mail": "^6.4.0",
+    "multiparty": "^4.2.1"
+  }
+}
